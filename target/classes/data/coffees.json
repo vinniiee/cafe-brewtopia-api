@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Espresso Americano",
+    "served": "HOT",
+    "category": "ESPRESSO",
+    "description": "A smooth and bold black coffee made by adding hot water to a shot of espresso, delivering a lighter strength without compromising on flavor.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/espresso-americano-min_bjbdm9.png",
+    "prices": [
+      120.0,
+      150.0,
+      180.0
+    ]
+  },
+  {
+    "name": "Espresso Doppio",
+    "served": "HOT",
+    "category": "ESPRESSO",
+    "description": "A strong and concentrated double shot of espresso, offering twice the intensity for true coffee enthusiasts.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/espresso-doppio-min_sffntq.png",
+    "prices": [
+      140.0,
+      170.0,
+      200.0
+    ]
+  },
+  {
+    "name": "Espresso Long Black",
+    "served": "HOT",
+    "category": "ESPRESSO",
+    "description": "A bold coffee prepared by pouring hot water over a double shot of espresso, preserving the crema while balancing strength and smoothness.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/espresso-longblack-min_kojlq4.png",
+    "prices": [
+      130.0,
+      160.0,
+      190.0
+    ]
+  },
+  {
+    "name": "Espresso Ristretto",
+    "served": "HOT",
+    "category": "ESPRESSO",
+    "description": "An intense and rich short shot of espresso brewed with less water, delivering maximum flavor and aroma in every sip.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/espresso-ristretto-min_jwzuvn.png",
+    "prices": [
+      110.0,
+      140.0,
+      170.0
+    ]
+  },
+  {
+    "name": "Caffè Latte",
+    "served": "HOT",
+    "category": "LATTE",
+    "description": "A comforting blend of espresso and steamed milk, topped with a thin layer of microfoam for a smooth, velvety finish.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689634/latte-caffe-min_wg3eiw.png",
+    "prices": [
+      150.0,
+      180.0,
+      210.0
+    ]
+  },
+  {
+    "name": "Caramel Latte",
+    "served": "HOT",
+    "category": "LATTE",
+    "description": "A creamy latte infused with rich caramel syrup, balancing sweetness and espresso for a perfect indulgence.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689634/latte-caramel-min_vmbllg.png",
+    "prices": [
+      170.0,
+      200.0,
+      230.0
+    ]
+  },
+  {
+    "name": "Cinnamon Latte",
+    "served": "HOT",
+    "category": "LATTE",
+    "description": "A spiced latte flavored with a dash of aromatic cinnamon, creating a cozy and flavorful coffee experience.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689634/latte-cinnamon-min_p4ocj5.png",
+    "prices": [
+      160.0,
+      190.0,
+      220.0
+    ]
+  },
+  {
+    "name": "Latte Macchiato",
+    "served": "COLD",
+    "category": "LATTE",
+    "description": "A layered coffee drink where steamed milk is topped with a shot of espresso, creating a visually appealing and creamy delight.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689634/latte-mochiato-min_l0mokl.png",
+    "prices": [
+      170.0,
+      200.0,
+      230.0
+    ]
+  },
+  {
+    "name": "Mocha Caramel",
+    "served": "HOT",
+    "category": "MOCHA",
+    "description": "A decadent fusion of espresso, chocolate, and caramel syrup, topped with steamed milk and foam for a sweet, rich indulgence.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689634/mocha-caramel-min_w8hwu2.png",
+    "prices": [
+      180.0,
+      210.0,
+      240.0
+    ]
+  },
+  {
+    "name": "Mocha Cocoa",
+    "served": "HOT",
+    "category": "MOCHA",
+    "description": "A chocolate-forward coffee made with espresso, cocoa, and steamed milk, creating a velvety, dessert-like experience.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/mocha-cocoa-min_rhclt1.png",
+    "prices": [
+      170.0,
+      200.0,
+      230.0
+    ]
+  },
+  {
+    "name": "Mocha Double Chocolate",
+    "served": "COLD",
+    "category": "MOCHA",
+    "description": "An indulgent mocha made with extra chocolate syrup and espresso, perfect for chocolate lovers seeking a rich coffee treat.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689632/mocha-double-chocolate-min_ibdt8k.png",
+    "prices": [
+      190.0,
+      220.0,
+      250.0
+    ]
+  },
+  {
+    "name": "Mocha Hazelnut",
+    "served": "HOT",
+    "category": "MOCHA",
+    "description": "Espresso with steamed milk, chocolate, and nutty hazelnut flavor.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/mocha-hazzlenut-min_nrpjsr.png",
+    "prices": [
+      160.0,
+      190.0,
+      220.0
+    ]
+  },
+  {
+    "name": "Mocha Walnut",
+    "served": "COLD",
+    "category": "MOCHA",
+    "description": "Espresso with chocolate and walnut essence, creating a nutty mocha twist.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/mocha-walnut-min_ia3sli.png",
+    "prices": [
+      160.0,
+      190.0,
+      220.0
+    ]
+  },
+  {
+    "name": "Dry Cappuccino",
+    "served": "HOT",
+    "category": "CAPPUCCINO",
+    "description": "Espresso with minimal milk, topped with extra foam for a strong yet airy drink.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689632/cappuccino-dry-min_saojmd.png",
+    "prices": [
+      140.0,
+      170.0,
+      200.0
+    ]
+  },
+  {
+    "name": "Wet Cappuccino",
+    "served": "HOT",
+    "category": "CAPPUCCINO",
+    "description": "Espresso blended with more steamed milk and light foam for a creamier texture.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/cappuccino-wet-min_cwemgc.png",
+    "prices": [
+      140.0,
+      170.0,
+      200.0
+    ]
+  },
+  {
+    "name": "Freddo Cappuccino",
+    "served": "COLD",
+    "category": "ICED",
+    "description": "A Greek-style iced cappuccino with frothed milk over chilled espresso.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689632/cappuccino-freddo-min_cz3ab5.png",
+    "prices": [
+      150.0,
+      180.0,
+      210.0
+    ]
+  },
+  {
+    "name": "Iced Latte",
+    "served": "COLD",
+    "category": "ICED",
+    "description": "A refreshing chilled version of the classic latte, made with espresso, cold milk, and ice for a smooth and cool drink.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689634/iced-latte-min_v7osqc.png",
+    "prices": [
+      160.0,
+      190.0,
+      220.0
+    ]
+  },
+  {
+    "name": "Iced Caramel Latte",
+    "served": "COLD",
+    "category": "ICED",
+    "description": "A chilled caramel latte served over ice, combining espresso, milk, and caramel syrup for a sweet, refreshing treat.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689633/iced-caramel-latte-min_mmjgqj.png",
+    "prices": [
+      180.0,
+      210.0,
+      240.0
+    ]
+  },
+  {
+    "name": "Iced Café Mocha",
+    "served": "COLD",
+    "category": "ICED",
+    "description": "Chilled espresso with milk and chocolate syrup, topped with whipped cream.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689634/iced-cafe-mocha-min_qhvurm.png",
+    "prices": [
+      160.0,
+      190.0,
+      220.0
+    ]
+  },
+  {
+    "name": "Iced Oatmeal Espresso",
+    "served": "COLD",
+    "category": "ICED",
+    "description": "Smooth espresso poured over oat milk and ice for a dairy-free delight.",
+    "image": "https://res.cloudinary.com/dfdadaxu6/image/upload/v1756689635/iced-oatmeal-espresso-min_tisbds.png",
+    "prices": [
+      160.0,
+      190.0,
+      220.0
+    ]
+  }
+]
