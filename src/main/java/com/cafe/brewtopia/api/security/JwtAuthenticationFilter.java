@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
-
     private final JwtUtil jwtUtil;
     private final CustomUserDetailsService userDetailsService;
 

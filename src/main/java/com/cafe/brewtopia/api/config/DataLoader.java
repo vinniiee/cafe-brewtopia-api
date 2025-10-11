@@ -54,7 +54,6 @@ public class DataLoader {
         if (personRepository.count() == 0) {
             Person user1 = Person.builder()
                     .name("John Doe")
-                    .username("john_doe")
                     .email("john@example.com")
                     .password(passwordEncoder.encode("password123"))
                     .roles(Set.of(Role.ROLE_USER))
@@ -63,7 +62,6 @@ public class DataLoader {
 
             Person user2 = Person.builder()
                     .name("Jane Doe")
-                    .username("jane_doe")
                     .email("jane@example.com")
                     .password(passwordEncoder.encode("password123"))
                     .roles(Set.of(Role.ROLE_USER))
@@ -72,7 +70,6 @@ public class DataLoader {
 
             Person admin = Person.builder()
                     .name("Admin User")
-                    .username("admin")
                     .email("admin@example.com")
                     .password(passwordEncoder.encode("admin123"))
                     .roles(Set.of(Role.ROLE_ADMIN))
