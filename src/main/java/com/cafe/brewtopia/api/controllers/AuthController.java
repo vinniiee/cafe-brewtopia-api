@@ -79,7 +79,9 @@ public class AuthController {
 
     @GetMapping("/me")
     public ResponseEntity<CurrentUser> currentUser(@AuthenticationPrincipal UserDetails user) {
-
+        if(user==null){
+            return ResponseEntity.status(404).body(null);
+        }
         Person person = personService.getPersonByEmail(user.getUsername());
         CurrentUser currentUser = new CurrentUser(person.getName(),person.getEmail(), person.getOrders(),person.getAddress());
         return  ResponseEntity.status(200).body(currentUser);

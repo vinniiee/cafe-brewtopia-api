@@ -34,4 +34,13 @@ public class Coffee extends BaseEntity{
 
     @Column(nullable = false)
     List<Double> prices;
+
+    @Column(nullable=false)
+    List<Integer> sizes;
+
+    @Column(nullable = false)
+    List<String> attributes;
+
+    @Column(nullable = false)
+    private Double rating;
 }
