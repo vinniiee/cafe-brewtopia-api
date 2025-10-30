@@ -1,0 +1,91 @@
+# ======================================
+# 💡 Java & Spring Boot Ignore Rules
+# ======================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot generated files
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# ======================================
+# 💡 IntelliJ IDEA Ignore Rules
+# ======================================
+.idea/
+*.iml
+*.iws
+out/
+
+# ======================================
+# 💡 VS Code Ignore Rules
+# ======================================
+.vscode/
+
+# ======================================
+# 💡 Operating System Files
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# 💡 Docker Related
+# ======================================
+# Ignore build artifacts and intermediate containers
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore Docker local build cache
+**/.dockerignore
+**/docker-compose.override.yml
+**/docker-compose.yml.save
+
+# ======================================
+# 💡 Environment Files
+# ======================================
+.env
+.env.*
+application-*.properties
+application-*.yml
+
+# ======================================
+# 💡 Miscellaneous
+# ======================================
+# Logs and temporary files
+logs/
+*.tmp
+*.bak
+*.swp
+
+# Backup files
+*~
+*.orig
+
+# JetBrains HTTP client requests
+.http/
+
+# Local test DBs or cache
+*.db
+data/
