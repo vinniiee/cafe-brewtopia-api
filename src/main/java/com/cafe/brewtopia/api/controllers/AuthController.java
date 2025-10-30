@@ -6,6 +6,7 @@ import com.cafe.brewtopia.api.enums.Role;
 import com.cafe.brewtopia.api.repositories.PersonRepository;
 import com.cafe.brewtopia.api.security.JwtUtil;
 import com.cafe.brewtopia.api.services.PersonService;
+import com.cafe.brewtopia.api.transformers.PersonToCurrentUserTransformer;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -85,5 +86,11 @@ public class AuthController {
         Person person = personService.getPersonByEmail(user.getUsername());
         CurrentUser currentUser = new CurrentUser(person.getName(),person.getEmail(), person.getOrders(),person.getAddress());
         return  ResponseEntity.status(200).body(currentUser);
+    }
+
+    @PutMapping("/me")
+    public ResponseEntity<CurrentUser> updateUser(@RequestBody Person person,@AuthenticationPrincipal UserDetails userDetails){
+        Person updatedPerson = personService.updatePerson(person);
+        return ResponseEntity.ok(PersonToCurrentUserTransformer.toCurrentUser(updatedPerson));
     }
 }
