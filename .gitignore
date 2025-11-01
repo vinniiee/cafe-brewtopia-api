@@ -2,6 +2,9 @@
 # 💡 Java & Spring Boot Ignore Rules
 # ======================================
 
+src/main/resources/application-local.yml
+
+
 # Compiled class files
 *.class
 

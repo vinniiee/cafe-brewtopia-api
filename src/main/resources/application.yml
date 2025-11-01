@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: cafe-brewtopia-api
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    properties:
+      format_sql: true
+  profiles.active: local
+
+server:
+  port:8080
+
+jwt:
+  secret: ${JWT_SECRET:defaultsecret}
+  expiration-ms: ${JWT_EXPIRATION_MS:86400000}
